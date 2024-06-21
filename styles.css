@@ -1,0 +1,53 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+
+#first-row, #second-row, #third-row{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: -2px;
+
+}
+
+#container{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#spot-one, #spot-two, #spot-three, #spot-four, #spot-five, #spot-six,
+#spot-seven, #spot-eight, #spot-nine{
+    padding: 40px;
+    border: 5px solid black;
+    
+}
+
+#spot-one:hover, #spot-two:hover, #spot-three:hover, #spot-four:hover, #spot-five:hover, #spot-six:hover,
+#spot-seven:hover, #spot-eight:hover, #spot-nine:hover{
+    background-color: grey;
+    color: white;    
+}
+
+#button-container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#reset-button{
+    padding: 25px;
+    width: 180px;
+    border-radius: 40px;
+}
+
+#reset-button:hover{
+    color:white;
+    background-color: darkred;
+}
