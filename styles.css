@@ -1,53 +1,72 @@
-
-h1{
+h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 115px;
 }
 
 
-#first-row, #second-row, #third-row{
-    display:flex;
+#first-row,
+#second-row,
+#third-row {
+    display: flex;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
-#container{
+#container {
     margin-left: 50px;
     margin-right: 50px;
 
 }
 
-#spot-one, #spot-two, #spot-three, #spot-four, #spot-five, #spot-six,
-#spot-seven, #spot-eight, #spot-nine{
+#spot-one,
+#spot-two,
+#spot-three,
+#spot-four,
+#spot-five,
+#spot-six,
+#spot-seven,
+#spot-eight,
+#spot-nine {
     padding: 80px;
     border: 5px solid black;
-    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: x-large;
+
 }
 
-#spot-one:hover, #spot-two:hover, #spot-three:hover, #spot-four:hover, #spot-five:hover, #spot-six:hover,
-#spot-seven:hover, #spot-eight:hover, #spot-nine:hover{
+#spot-one:hover,
+#spot-two:hover,
+#spot-three:hover,
+#spot-four:hover,
+#spot-five:hover,
+#spot-six:hover,
+#spot-seven:hover,
+#spot-eight:hover,
+#spot-nine:hover {
     background-color: grey;
-    color: white;    
+    color: white;
 }
 
-#button-container{
+#button-container {
 
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
 
-#reset-button{
+#reset-button {
     padding: 25px;
     width: 180px;
     border-radius: 40px;
     font-size: large;
 }
 
-#reset-button:hover{
-    color:white;
+#reset-button:hover {
+    color: white;
     background-color: darkred;
 }

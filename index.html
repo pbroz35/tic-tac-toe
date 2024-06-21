@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css" defer>
     <script src="index.js" defer></script>
 </head>
+
 <body>
     <header>
         <h1>Tic-Tac-Toe</h1>
@@ -16,19 +17,19 @@
     <main>
         <div id="container">
             <div id="first-row">
-                <div id="spot-one">1</div>
-                <div id="spot-two">2</div>
-                <div id="spot-three">3</div>
+                <div class="game-button" id="spot-one" data-index="0">1</div>
+                <div class="game-button" id="spot-two" data-index="1">2</div>
+                <div class="game-button" id="spot-three" data-index="2">3</div>
             </div>
-              <div id="second-row">
-                <div id="spot-four">4</div>
-                <div id="spot-five">5</div>
-                <div id="spot-six">6</div>
+            <div id="second-row">
+                <div class="game-button" id="spot-four" data-index="3">4</div>
+                <div class="game-button" id="spot-five" data-index="4">5</div>
+                <div class="game-button" id="spot-six" data-index="5">6</div>
             </div>
             <div id="third-row">
-                <div id="spot-seven">7</div>
-                <div id="spot-eight">8</div>
-                <div id="spot-nine">9</div>
+                <div class="game-button" id="spot-seven" data-index="6">7</div>
+                <div class="game-button" id="spot-eight" data-index="7">8</div>
+                <div class="game-button" id="spot-nine" data-index="8">9</div>
             </div>
         </div>
     </main>
@@ -36,4 +37,5 @@
         <button id="reset-button">Reset</button>
     </div>
 </body>
+
 </html>
